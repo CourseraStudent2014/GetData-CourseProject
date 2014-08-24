@@ -10,7 +10,7 @@ y_test <- read.table("./test/y_test.txt")
 X_test <- read.table("./test/X_test.txt")
 subject_test <- read.table("./test/subject_test.txt")
 
-##give more meaningfull names to columns in various data frames
+##give more meaningful names to columns in various data frames
 colnames(y_test) <- "ActivityTypeID"
 colnames(subject_test) <- "ParticipantID"
 colnames(X_test) <- paramNames[,2]
