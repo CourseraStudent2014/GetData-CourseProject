@@ -26,7 +26,7 @@ Please refer to the run_analysis.R files for the exact sequence of instructions 
 -	subject_train:  a data frame into which the data contained in subject_train.txt is read
 -	activities_test: a data frame that is a merge of the tables that contain the names of activities and the measurements (y_test, activityNames)
 -	MergedTable: data frame that combines data from different data frames (subject_test, activities_test, X_test, subject_train, activities_train, X_train
--	StdMeanTable: a new data frame that contains only standard deviation and mean measurements, and columns that identify participant (subject) and activity. Columns that contain standard deviation and mean measurements are defines as columns whose name include one of the two strings: "-mean()" or "-std()"
+-	StdMeanTable: a new data frame that contains only standard deviation and mean measurements, and columns that identify participant (subject) and activity. Columns that contain standard deviation and mean measurements are defined as columns whose name include one of the two strings: "-mean()" or "-std()". The avarages are calculated only where at least one measurement is available for each avtivity and subject (participant)
 -	aggdata: a new data frame that includes the mean of each variable for each activity and each subject
 
 Instruction list
