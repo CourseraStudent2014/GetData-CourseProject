@@ -14,6 +14,8 @@ As further explained by the data providers, "for each record the following metad
 
 Code book
 =====================
+Please find the list describing the variables used in code.
+Please refer to the run_analysis.R files for the exact sequence of instructions in R. Please note that the R code includes further comments that explain the nature of operations. 
 -	paramNames: a data frame into which data contained in  features.txt is read
 -	activityNames: a data frame into which data contained in  activity_labels.txt is read
 -	y_test: a data frame into which the data contained in y_test.txt is read
