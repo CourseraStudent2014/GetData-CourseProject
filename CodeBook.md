@@ -14,6 +14,18 @@ As further explained by the data providers, "for each record the following metad
 
 Code book
 =====================
+-	paramNames: a data frame into which data contained in  features.txt is read
+-	activityNames: a data frame into which data contained in  activity_labels.txt is read
+-	y_test: a data frame into which the data contained in y_test.txt is read
+-	X_test:  a data frame into which the data contained in X_test.txt is read
+-	subject_test:  a data frame into which the data contained in subject_test.txt is read
+-	y_train: a data frame into which the data contained in y_train.txt is read
+-	X_train:  a data frame into which the data contained in X_train.txt is read
+-	subject_train:  a data frame into which the data contained in subject_train.txt is read
+-	activities_test: a data frame that is a merge of the tables that contain the names of activities and the measurements (y_test, activityNames)
+-	MergedTable: data frame that combines data from different data frames (subject_test, activities_test, X_test, subject_train, activities_train, X_train
+-	StdMeanTable: a new data frame that contains only standard deviation and mean measurements, and columns that identify participant (subject) and activity. Columns that contain standard deviation and mean measurements are defines as columns whose name include one of the two strings: "-mean()" or "-std()"
+-	aggdata: a new data frame that includes the mean of each variable for each activity and each subject
 
 Instruction list
 =====================
